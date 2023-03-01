@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.full_height {
+  height: 100vh;
+}
+
+.custom_sidebar {
+  width: 280px;
+  height: 100vh;
+}
+
+.custom_body {
+  width: calc(100% - 280px);
+}
+
+.card_shadow {
+  box-shadow: 0 0.5rem 1rem #99999930;
+}
+
+.table_head th {
+  color: #5e8cce;
+  font-weight: 600;
+}
+
+.table_item td {
+  color: #5e8cce;
+}
+
+.hero_img {
+  position: relative;
+  animation: moveUpAndDown 2.5s ease alternate infinite;
+}
+
+@keyframes moveUpAndDown {
+  from {
+    left: 0px;
+    top: 0px;
+  }
+  to {
+    left: 0px;
+    top: 30px;
+  }
+}
